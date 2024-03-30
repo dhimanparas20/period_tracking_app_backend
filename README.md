@@ -33,7 +33,7 @@ This project involves developing a backend system for a period tracking applicat
 ## User Data Management  
 
 ### User Details
-- **URL**: `/api/user`
+- **URL**: `/api/user/`
 - **Methods**: GET, POST, PUT (partial update) with pk, DELETE with pk
 
 - User can filter their period's history by passing `start_date="YYYY-MM-DD"` & `end_date="YYYY-MM-DD"` parameters in get request.
@@ -42,19 +42,19 @@ This project involves developing a backend system for a period tracking applicat
 ## Data Analysis
 ### Calculate Average Cycle Length
 
-- **URL**: `/api/calculate_average_cycle_length`
+- **URL**: `/api/calculate_average_cycle_length/`
 - **Method**: GET
 - **Authorization**: Bearer token required
 
 ### Predict Next Period Date
 
-- **URL**: `/api/predict_next_period`
+- **URL**: `/api/predict_next_period/`
 - **Method**: GET
 - **Authorization**: Bearer token required
 
 ### Analyze Symptoms Count
 
-- **URL**: `/api/analyze_symptoms_count`
+- **URL**: `/api/analyze_symptoms_count/`
 - **Method**: GET
 - **Authorization**: Bearer token required
 
